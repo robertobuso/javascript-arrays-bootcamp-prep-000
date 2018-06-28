@@ -7,8 +7,8 @@ function addElementToBeginningOfArray (array, element) {
 }
 
 function destructivelyAddElementToBeginningOfArray (array, element) {
-  var myFirstArray = [array]
-  myFirstArray = ['foo', ...myFirstArray]
+  var myFirstArray = array
+  myFirstArray = ["foo", ...myFirstArray]
   return myFirstArray
 }
 
