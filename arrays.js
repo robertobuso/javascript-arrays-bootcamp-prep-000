@@ -6,8 +6,6 @@ function addElementToBeginningOfArray (array, element) {
   return mySecondArray
 }
 
-addElementToBeginningOfArray (1, 'foo')
-
 function destructivelyAddElementToBeginningOfArray (array, element) {
   var myFirstArray = [array]
   myFirstArray = [element, ...myFirstArray]
