@@ -20,6 +20,6 @@ function addElementToEndOfArray (array, element) {
 
 function destructivelyAddElementToEndOfArray (array, element) {
   var myFirstArray = array
-  myFirstArray = [...myFirstArray, element]
+  myFirstArray.push ('foo')
   return myFirstArray
 }
