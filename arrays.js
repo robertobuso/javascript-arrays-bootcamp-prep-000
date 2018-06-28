@@ -11,3 +11,4 @@ function destructivelyAddElementToBeginningOfArray (array, element) {
   myFirstArray = [element, ...myFirstArray]
   return myFirstArray
 }
+
