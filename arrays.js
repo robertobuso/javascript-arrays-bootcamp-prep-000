@@ -12,3 +12,14 @@ function destructivelyAddElementToBeginningOfArray (array, element) {
   return myFirstArray
 }
 
+function addElementToEndOfArray (array, element) {
+  var myFirstArray = array
+  mySecondArray = [...myFirstArray, 'foo']
+  return mySecondArray
+}
+
+function destructivelyAddElementToEndOfArray (array, element) {
+  var myFirstArray = array
+  myFirstArray = [...myFirstArray, element]
+  return myFirstArray
+}
